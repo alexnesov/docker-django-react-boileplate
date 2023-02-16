@@ -17,8 +17,7 @@ Boilerplate for React-Django projects contained in a Docker (Compose)
 
 ### Project structure
 
-<code>
-myproject/
+<code>docker-django-react-boileplate/
 ├── backend/
 │   ├── Dockerfile
 │   └── requirements.txt
