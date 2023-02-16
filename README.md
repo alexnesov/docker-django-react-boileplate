@@ -17,7 +17,7 @@ Boilerplate for React-Django projects contained in a Docker (Compose)
 
 ### Project structure
 
-
+<code>
 myproject/
 ├── backend/
 │   ├── Dockerfile
@@ -26,7 +26,7 @@ myproject/
 │   ├── Dockerfile
 │   ├── package-lock.json
 │  
-
+</code>
 
 ### docker-compose.yml explaination
 
