@@ -3,9 +3,22 @@ Boilerplate for React-Django projects contained in a Docker (Compose)
 
 
 
-## Steps to initialize 
+## Steps to initialize the project
+```django-admin startproject api```
+```mkdir api```
+```cd api/```
+
+Do a ```python manage.py runserver``` in ```api``` to test. <br><br>
 
 
+
+### Building the Frontend
+```npm install -g create-react-app``` if ```npm ERR! cb.apply is not a function``` <br>
+```npx create-react-app frontend``` <br>
+
+
+Do a ```npm start``` in ```frontend``` to test. <br>
+<br>
 
 
 ### Start the containers
@@ -17,14 +30,7 @@ Boilerplate for React-Django projects contained in a Docker (Compose)
 
 ### Project tree structure
 
-<code>docker-django-react-boileplate/
-├── backend/
-│   ├── Dockerfile
-│   └── requirements.txt
-├── frontend/
-│   ├── Dockerfile
-│   ├── package-lock.json
-│  
+<code>
 </code>
 
 ### docker-compose.yml explanation:
