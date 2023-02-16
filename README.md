@@ -21,11 +21,20 @@ Do a ```npm start``` in ```frontend``` to test. <br>
 <br>
 
 
-### Start the containers
-```docker-compose up```
+
 
 ### Stop the containers
 ```docker-compose down```
+
+### Build the containers
+
+docker-compose build
+
+
+### Start the containers
+```docker-compose up```
+
+
 
 
 ### Project tree structure

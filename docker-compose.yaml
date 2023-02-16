@@ -1,22 +1,16 @@
-version: '3'
+version: "3"
 
 services:
-  frontend:
-    build: ./frontend
-    ports:
-      - "3000:3000"
-    volumes:
-      - ./frontend:/app
-    environment:
-      - NODE_ENV=development
-    command: npm start
-
-  backend:
-    build: ./backend
+  api:
+    build: 
+      context: ./api
+    command: python manage.py runserver 0.0.0.0:8000
     ports:
       - "8000:8000"
-    volumes:
-      - ./backend:/app
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
     environment:
-      - DEBUG=True
-    command: python manage.py runserver 0.0.0.0:8000
+      - REACT_APP_API_URL=http://api:8000
