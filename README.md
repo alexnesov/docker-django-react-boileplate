@@ -3,13 +3,13 @@ Boilerplate for React-Django projects contained in a Docker (Compose)
 
 
 
-## Step to initialize 
+## Steps to initialize 
 
 
 
 
-# start the containers
-docker-compose up
+### Start the containers
+```docker-compose up```
 
-# stop the containers
-docker-compose down
+### Stop the containers
+```docker-compose down```
