@@ -4,6 +4,10 @@ Boilerplate for React-Django projects contained in a Docker (Compose)
 
 
 ## Steps to initialize the project
+
+
+### Building the Backend
+
 ```django-admin startproject api``` <br>
 ```cd api/```
 
