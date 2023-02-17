@@ -40,11 +40,6 @@ Do a ```npm start``` in ```frontend``` to test. <br>
 
 
 
-### Project tree structure
-
-<code>
-</code>
-
 ### docker-compose.yml explanation:
 
 ```docker-compose.yml``` file defines two services: frontend and backend. <br>
